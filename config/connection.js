@@ -19,5 +19,3 @@ connection.connect(function (err) {
     console.error("error connecting: " + err.stack);
   }
 });
-
-// mysql://wrr6kg9pac934do8:sba86w4lhjhyz02g@rnr56s6e2uk326pj.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/w7uw6d5rchjoensn
