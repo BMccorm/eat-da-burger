@@ -1,8 +1,7 @@
-import { createConnection } from "mysql";
+// import { createConnection } from "mysql";
 var mysql = require("mysql");
 require("dotenv").config();
 var connection;
-
 if (process.env.JAWSDB_URL) {
   connection = mysql.createConnection(process.env.JAWSDB_URL);
 } else {
