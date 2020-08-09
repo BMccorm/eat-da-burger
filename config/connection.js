@@ -6,7 +6,7 @@ var connection;
 if (process.env.JAWSDB_URL) {
   connection = mysql.createConnection(process.env.JAWSDB_URL);
 } else {
-  connection = mysql.createConnection(process.env.PRODUCTION);
+  connection = mysql.createConnection(process.env.production);
 }
 //       {
 //     host: "localhost",
