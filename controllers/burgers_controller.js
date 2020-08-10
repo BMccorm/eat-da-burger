@@ -18,7 +18,11 @@ router.get("/", function (req, res) {
 });
 
 router.post("/api/burgers", function (req, res) {
+  console.log("req.body.burger_name: ", req.body.burger_name);
+  console.log("req.body.devoured: ", req.body.devoured);
+
   burger.create(
+
     ["burger_name", "devoured"],
     [req.body.burger_name, req.body.devoured],
     function (result) {
@@ -27,6 +31,7 @@ router.post("/api/burgers", function (req, res) {
     }
   );
 });
+
 
 router.put("/api/burgers/:id", function (req, res) {
   var condition = "id = " + req.params.id;
