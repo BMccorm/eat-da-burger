@@ -1,11 +1,11 @@
 <h1>Burgers</h1>
 
-<h2>Please enter your favorite burger.</h2>
+<h2>What would you like to order?</h2>
 
 <ul>
-  {{#each burger}}
-  {{#unless devour}}
-  {{> burger/burger-block sleep=true}}
+  {{#each burgers}}
+  {{#unless devoured}}
+  {{> burger/burger-block consumed=true}}
   {{/unless}}
   {{/each}}
 </ul>
@@ -13,9 +13,9 @@
 <h2>burger that are devour!</h2>
 
 <ul>
-  {{#each burger}}
-  {{#if devour}}
-  {{> burger/burger-block sleep=false}}
+  {{#each burgers}}
+  {{#if devoured}}
+  {{> burger/burger-block consumed=false}}
   {{/if}}
   {{/each}}
 </ul>
