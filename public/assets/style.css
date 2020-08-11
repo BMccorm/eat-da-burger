@@ -4,8 +4,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    
+    flex-direction: column;  
 }
 
 button {
@@ -25,6 +24,11 @@ button:hover {
   transition: transform 150ms;
 }
 
+img {
+    margin-bottom: 0rem;
+    height: 230px;
+    padding-top: 1rem;
+}
 li {
     background-color: rgba(254, 201, 154, 0.6);
     display: flex;
@@ -62,7 +66,7 @@ ul{
 }
 
 .middleBoxH2 {
-    color: rgb(175, 107, 94);
+    color: #833d34;
     text-align: center;
      font-family: 'Shadows Into Light', cursive;
      font-size: 25pt;
@@ -99,7 +103,7 @@ color: rgb(175, 107, 94);
 }
 
 header {
-    margin-bottom: .5rem;
+    /* margin-bottom: .rem; */
     color:#FEC89A;
      font-family: 'Shadows Into Light', cursive;
      font-size: 25pt;
@@ -107,7 +111,11 @@ header {
      flex-direction: column;
      align-items: center;
      text-align: center;
+}
 
+header h1 {
+    margin-top: .5rem;
+    margin-bottom: 1.5rem;
 }
 
 .buttonBox{
@@ -127,7 +135,8 @@ header {
     #formBox {
     border-top-left-radius:.5rem;
     border-bottom-left-radius: 0rem;border-top-right-radius: .5rem;
-   padding-bottom: 1rem;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
     }
 
     .middleBox {
@@ -142,7 +151,7 @@ header {
     }
 
     .middleBoxH2 {
-     padding-bottom: 7px;
+     margin: 0rem;
     }
 
     #formBoxH2 {
