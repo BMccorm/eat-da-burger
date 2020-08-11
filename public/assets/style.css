@@ -37,7 +37,8 @@ li {
     color:#C9E4CA;
     font-weight: bold;
     text-transform: capitalize;
-    width: 20rem;
+    width: 21rem;
+    text-align: center;
 }
 
 ul{
@@ -61,6 +62,7 @@ ul{
 
 .middleBoxH2 {
     color: #27187E;
+    text-align: center;
 }
 
 #formBox {
