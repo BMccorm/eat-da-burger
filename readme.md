@@ -19,13 +19,14 @@ Created by [BMcCorm](https://github.com/BMcCorm)
 - [Questions](#Questions)
 
 ## Description
-This burger logger was created with MySQL, Node, Express, Handlebars and a homemade ORM. Node and MySQL are used to query and route data. Handlebars were used to generate the  HTML.
+This burger logger was created with MySQL, Node, Express, Handlebars and a homemade ORM. Node and MySQL query and route data. The HTML was generated using Handlebars.
 
 ## Installation
-Click on the project link and start building your burgers! The left column displays current menu items, while the right displays burgers that have been devoured.
+
+This user-friendly interface does not require installation. It's hosted on Heroku and can be found [here.](https://eat-da-burger-bm.herokuapp.com/)
 
 ## Usage
-
+Click on the project link and start building your burgers! The left column displays current menu items, while the right displays burgers that have been devoured.
 
 ## Interested in contributing? Here's how:
 
@@ -44,9 +45,9 @@ No contributors at this time.
 No testing at this time.
 
 ## License
-No License at this time.
+No license at this time.
 
 ## Questions
-For more information, please email me at BrielleMcCormick@gmail.com
+For more information, please email me at BrielleMcCormick@gmail.com. <br>
 The link for this project can be found [here.](https://BMcCorm.github.io/eat-da-burger/)
 
