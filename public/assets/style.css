@@ -84,7 +84,7 @@ ul{
 #formBoxH2 {
     color:#833d34;
     text-align: center;
-     font-family: 'Shadows Into Light', cursive;
+    font-family: 'Shadows Into Light', cursive;
 }
 .create-form {
     display: flex;
@@ -139,4 +139,12 @@ header {
 
     header {
         font-size: 18pt;
+    }
+
+    .middleBoxH2 {
+     padding-bottom: 7px;
+    }
+
+    #formBoxH2 {
+    font-size: 25pt;
     }
