@@ -1,13 +1,13 @@
 <li>
     {{burger_name}}
+    <div class="buttonBox">
+        <button data-id="{{id}}" class="change-consumed" data-newOrder="{{consumed}}"> {{#if consumed }}
+            Order Now
+            {{else}}
+            Add to Menu
+            {{/if}}
+        </button>
 
-    {{#if consumed }} <button data-id="{{id}}" class="change-consumed" data-newOrder="{{consumed}}">
-        Order
-    </button>
-    {{else}}
-    Past Orders
-    {{/if}}
-
-    <button class="delete-burger" data-id="{{this.id}}">Delete</button>
-
+        <button class="delete-burger" data-id="{{this.id}}">Delete</button>
+    </div>
 </li>
