@@ -2,7 +2,8 @@
 $(function () {
     $(".change-consumed").on("click", function (event) {
         var id = $(this).data("id");
-        var newBurger = $(this).data("newOrder");
+        var newBurger = $(this).attr("data-newOrder");
+        console.log(newBurger);
 
         var newBurgerState = {
             devoured: newBurger
